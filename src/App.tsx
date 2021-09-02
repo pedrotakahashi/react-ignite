@@ -1,4 +1,5 @@
 import React from 'react';
+import Counter from './components/Counter/Counter';
 import RepositoryList from './components/Repository/RepositoryList';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <RepositoryList />
+      <Counter />
       </header>
     </div>
   );
